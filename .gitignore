@@ -1,0 +1,38 @@
+# node_modules/
+# dist/
+# .env
+# *.log
+# .DS_Store
+# uploads/
+# backend/.env
+# frontend/.env
+# .vscode/
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+frontend/.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploaded files
+uploads/
+
+# Editor settings
+.vscode/
+.cursor/
